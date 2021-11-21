@@ -1,5 +1,18 @@
-# Created by https://www.toptal.com/developers/gitignore/api/node,webstorm,intellij,macos,vuejs,vue,nuxtjs,webstorm+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,webstorm,intellij,macos,vuejs,vue,nuxtjs,webstorm+all
+# Created by https://www.toptal.com/developers/gitignore/api/vue,node,vuejs,macos,webstorm,intellij,webstorm+all,grunt,bower,jspm,nextjs,nuxtjs
+# Edit at https://www.toptal.com/developers/gitignore?templates=vue,node,vuejs,macos,webstorm,intellij,webstorm+all,grunt,bower,jspm,nextjs,nuxtjs
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -107,6 +120,9 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
+### jspm ###
+jspm_packages
+
 ### macOS ###
 # General
 .DS_Store
@@ -135,6 +151,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+### NextJS ###
+# Next build dir
+.next/
 
 ### Node ###
 # Logs
@@ -169,7 +189,6 @@ coverage
 .grunt
 
 # Bower dependency directory (https://bower.io/)
-bower_components
 
 # node-waf configuration
 .lock-wscript
@@ -285,7 +304,6 @@ test/
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
-dist/
 npm-debug.log
 yarn-error.log
 
@@ -422,4 +440,4 @@ modules.xml
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.toptal.com/developers/gitignore/api/node,webstorm,intellij,macos,vuejs,vue,nuxtjs,webstorm+all
+# End of https://www.toptal.com/developers/gitignore/api/vue,node,vuejs,macos,webstorm,intellij,webstorm+all,grunt,bower,jspm,nextjs,nuxtjs
