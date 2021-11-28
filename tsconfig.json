@@ -27,6 +27,9 @@
       "@nuxt/types",
       "@nuxtjs/axios",
       "@types/node"
+    ],
+    "typeRoots": [
+      "types/vue-shim.d.ts"
     ]
   },
   "exclude": [
